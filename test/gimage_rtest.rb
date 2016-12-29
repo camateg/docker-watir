@@ -13,7 +13,7 @@ describe "images.google.com" do
 
   it "should have images" do
     input = b.text_field(:id=>'lst-ib')
-    input.when_present.set('robots')
+    input.set('robots')
     input.send_keys(:enter)
 
     b.div(:id=>'rg_s').wait_until_present
