@@ -1,5 +1,7 @@
 # docker-watir
 
+[![Build Status](https://travis-ci.org/camateg/docker-watir.svg?branch=master)](https://travis-ci.org/camateg/docker-watir)
+
 This Docker image will test Google's image search for pictures of robots and ensure that at least one exist(s).  It uses PhantomJS and reports the results via rpsec.
 
 Usage:
